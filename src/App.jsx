@@ -6,7 +6,7 @@ import Courses from "./sections/courses/Courses";
 import Team from "./sections/team/Team";
 import Testimonial from "./sections/testimonials/Testimonial";
 import Footer from "./sections/Footer/Footer";
-import Copyright from "./sections/copyright/copyright";
+// import Copyright from "./sections/copyright/copyright";
 import './index.css';
 
 
@@ -22,7 +22,7 @@ const App = () => {
       <Team />
       <Testimonial />
       <Footer />
-      <Copyright />
+      {/* <Copyright /> */}
     </main>
     
   );
