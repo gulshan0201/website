@@ -1,0 +1,41 @@
+.footer{
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 5rem 0;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+
+.footer__logo{
+    margin-bottom: 2rem;
+}
+.footer__logo-box{
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.footer__container-box h4{
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.footer__container-box li{
+    margin: .5rem 0;
+}
+
+.footer__container-box li a{
+    text-transform: capitalize;
+}
+
+.footer__container-box p{
+    margin: .5rem 0;
+}
+
+.footer__contact span{
+    margin-right: 1rem;
+}
