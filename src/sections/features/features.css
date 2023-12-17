@@ -30,12 +30,9 @@
 /* ==============RESPONSIVE============ */
 
 @media screen and (max-width: 624px) {
-    .features__container{
-        
-    }
 
-    .header__btn{
-        padding: 0.6rem 1rem;
+    .features__container{
+        grid-template-columns: 1fr 1fr;
     }
 }
 

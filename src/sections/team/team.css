@@ -8,6 +8,12 @@
     position: relative;
     overflow: hidden;
 }
+
+/* .team__card img{
+    background-color: black;
+    color: white;
+} */
+
 .team__card h4{
     position: absolute;
     right: 0;
@@ -69,3 +75,26 @@
 .team__card:hover h4{
    transform: scale(0);
 }
+
+
+/* =========Reponsive ========== */
+
+@media screen and (max-width: 1024px) {
+    
+    .team__container{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+ }
+
+/* =========Reponsive tablet========== */
+
+@media screen and (max-width: 624px) {
+    
+    .team__container{
+        grid-template-columns: 1fr;
+       
+    }
+ }
+

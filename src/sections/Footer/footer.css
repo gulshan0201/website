@@ -39,3 +39,19 @@
 .footer__contact span{
     margin-right: 1rem;
 }
+
+/* ================responsive============ */
+
+@media screen and (max-width: 1024px) {
+    .footer__container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ================responsive============ */
+
+@media screen and (max-width: 624px) {
+    .footer__container{
+        grid-template-columns: 1fr;
+    }
+}

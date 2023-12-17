@@ -19,3 +19,21 @@
     margin: 2rem 0;
     text-align: center;
 }
+
+.about__right-icon {
+    width: 4rem;
+}
+
+
+/* =============Responsive============ */
+
+@media screen and (max-width: 1024px) {
+    .about__container{
+        grid-template-columns: 1fr;
+    }
+
+    .about__image{
+        max-width: 555px;
+        margin: auto;
+    }
+}

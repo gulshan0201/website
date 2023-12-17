@@ -82,5 +82,23 @@
 }
 
 
+/* =========Reponsive ========== */
+
+@media screen and (max-width: 1024px) {
+   .courses__container{
+    grid-template-columns: 1fr 1fr;
+   }
+}
+
+
+/* Responsive mobile */
+
+@media screen and (max-width: 624px) {
+    .courses__container{
+     grid-template-columns: 1fr;
+    }
+ }
+
+
 
 

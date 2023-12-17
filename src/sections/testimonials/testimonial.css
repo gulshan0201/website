@@ -39,3 +39,21 @@
     border-radius: 50%;
     border: .3rem solid var(--color-light);
 }
+
+/* =========Reponsive tablet========== */
+
+@media screen and (max-width: 1024px) {
+    
+   .testimonial__card{
+        min-width: calc(50% - 2rem);
+   }
+ }
+
+/* =========Reponsive tablet========== */
+
+@media screen and (max-width: 624px) {
+    
+   .testimonial__card{
+        min-width: calc(100% - 2rem);
+   }
+ }
