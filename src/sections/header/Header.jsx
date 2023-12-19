@@ -12,9 +12,7 @@ const Header = () => {
           Meets Opportunity
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-          saepe blanditiis pariatur labore? Sunt quas dolores, vitae tempora
-          totam ad!
+        Education is the backbone of nations. A learning community dedicated to building respectful and responsible citizens and empowering all learners.
         </p>
         <div className="header__cta">
             <a href="https://iaxyj.on-app.in/app/home?orgCode=iaxyj&referrer=utm_source=copy-link&utm_medium=tutor-app-referral" className="header__btn">Download App <BiLogoPlayStore size={20}/> </a>
