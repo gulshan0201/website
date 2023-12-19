@@ -59,7 +59,7 @@ const Navbar = () => {
             <span>
               <RiGraduationCapFill size={33} />
             </span>
-            ACHIEVERS ACDEMY
+            ACHIEVERS ACADEMY
           </a>
           <ul
             className="nav__menu"
